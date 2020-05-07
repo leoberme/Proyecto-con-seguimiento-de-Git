@@ -1,0 +1,131 @@
+body {
+  background-image: linear-gradient(to bottom right, rgb(116, 0, 0), rgb(255, 41, 80));
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+    font-size: 16px;
+    color: #f2f2f2;
+}
+header {
+    background-image: url("bulls98.jpg");
+    background-size: cover;
+    padding: 390px 0px 0px 0px;
+    text-align: center;
+  }
+#navbar ul{
+    overflow: hidden;
+    background-color: #333;
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    padding:0;
+   }
+   #navbar ul li{
+     flex:1;
+   }
+#navbar a {
+    
+    display:block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+      }
+    #navbar a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 64, 83);
+  }
+  h1 {
+    
+      color: white;
+      font-size: 150px;
+      text-shadow: 1px 2px 5px rgb(24, 24, 24);
+      
+      text-transform: uppercase;
+      margin-bottom:0;
+
+  }
+  .nombre {
+    color:rgb(238, 37, 57);
+      font-size: 20px;
+      font-weight: bold;
+      text-align:center;
+  }
+  #text {
+    font-family: 'PT Serif', serif;
+    margin: 2em auto;
+    background-color: rgb(255, 255, 255);
+    color:rgb(238, 37, 57);
+    width: 50%;
+    padding: 1em 2em 1em 2em;
+    -webkit-box-shadow: -1px 14px 49px -18px rgba(0,0,0,0.65);
+    -moz-box-shadow: -1px 14px 49px -18px rgba(0,0,0,0.65);
+    box-shadow: -1px 14px 49px -18px rgba(0,0,0,0.65);
+  }
+#descripcion {
+  text-align: justify;
+ 
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center ;
+}
+#galeria {
+  background-color: black;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 54px 0 0em;
+}
+.tarjeta {
+  overflow: hidden;
+  width: 325px;
+	height: 325px;
+  padding: 34px;
+  flex:1;
+ 
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+ #frase {
+   background-color: black;
+   margin: 0;
+   padding: 0;
+ }
+ h3 {
+  font-family: 'PT Serif', serif;
+   margin:0 ;
+   text-align: center;
+   padding-top:3em; 
+   font-size: 40px;
+ }
+ #phil {
+   padding-bottom: 4em;
+   margin-bottom: 0;
+ }
+ footer {
+   background-color: black;
+ }
+ .ver {
+   text-decoration: none;
+   
+   color:white;
+   font-size: 50px;
+   font-weight: 900;
+ }
+ .ver:hover {
+   color:rgb(235, 42, 61);
+ }
+ footer {
+   text-align: center;
+ }
+ 
+ 
